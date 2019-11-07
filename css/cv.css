@@ -1,0 +1,103 @@
+body {
+  background-color: #f0c9c9;
+  font-family: "Times New Roman";
+
+}
+
+.container-fluid {
+  padding: 0% 15% 3%;
+}
+
+/* img {
+  float: left;
+  width: 10%;
+  height: 6em;
+  border-radius: 8%;
+  margin-right: 10px;
+} */
+
+h1,
+h3 {
+  color: #ff3f98;
+}
+
+hr {
+  border-style: none;
+  border-top: 5px dotted white;
+  width: 5%;
+  height: 0;
+}
+
+
+img {
+  width: 70%;
+  border-radius: 8%;
+  display: block;
+  margin: auto;
+  margin-top: 0.5em;
+
+}
+
+.navbar {
+  padding: 0 0 1rem;
+
+}
+
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ff3f98;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  /* font-family: "Montserrat-Light"; */
+  color: #ff3f98;
+}
+
+.navbar .navbar-toggler {
+  border-color: #ff3f98;
+}
+
+.heading {
+  text-decoration: underline;
+}
+
+br {
+  display: block;
+}
+
+.experience {
+  margin-bottom: 15px;
+}
+
+.copyright {
+  text-align: center;
+  color: #ff3f98;
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+
+@media (max-width: 575px) {
+  img {
+    width: 30%;
+  }
+
+  body {
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 930px) and (min-width: 575px) {
+  img {
+    width: 100%;
+  }
+}
